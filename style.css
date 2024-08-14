@@ -1,0 +1,94 @@
+:root {
+    --darkblue: #031038;
+    --lightblue: #4786C1;
+    --white: #F7F8FF;
+    --light: #C3CCEA;
+    --yellow: #ADB576;
+    --black: #000000;
+    --clear: #F1F5F4;
+    --grey: #252526;
+}
+
+body {
+    background-color: var(--darkblue);
+    margin: unset;
+}
+
+header {
+    display: flex;
+    color: var(--light);
+    justify-content: space-between;
+}
+
+section {
+    display: flex;
+    align-content: center;
+    padding: 120px
+}
+
+.main-div {
+    padding: 40px 40px 60px 60px;
+    border: unset;
+}
+
+.btn {
+    all: unset;
+    /* border: none; */
+    padding: 15px;
+
+}
+
+.blue-btn {
+    background-color: blue;
+    color: var(--white);
+    border: none;
+}
+
+.span-link {
+    background-color: var(--white);
+    padding: 30px;
+}
+
+h2 {
+    color: var(--yellow);
+}
+
+h1 {
+    color: var(--white)
+}
+
+p {
+    color: var(--light)
+}
+
+a {
+    color: var(--lightblue);
+}
+
+span {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h3 {
+    color: var(--black);
+}
+
+.foot-style {
+    background-color: var(--white);
+}
+
+footer {
+    background-color: #bfc5c5;
+    color: var(--#A2A6A6);
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+}
+
+.p-footer {
+    color: var(--grey);
+}
